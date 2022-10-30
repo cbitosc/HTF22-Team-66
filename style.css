@@ -1,0 +1,100 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+  }
+  
+  body{
+    display: flex;
+    padding: 0 10px;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./th\ \(1\).jpeg) ;
+    background-size: cover;
+  }
+
+  .header{
+    color: aliceblue;
+    margin-right: 120px;
+  }
+  
+h3{
+  color: #fff;
+}
+
+  .hero{
+    max-width: 650px;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    background: #fff;
+    opacity: 0.75;
+  }
+  .hero p {
+    font-size: 13px; 
+  }
+  .hero button{
+    width: 30%;
+    padding: 14px;
+    border: none;
+    margin-top: 9px;
+    font-size: 17px;
+    background: blue;
+    border-radius: 100px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .button{
+    list-style: none;
+    padding: 12px 0;
+  }
+  .button, li, i{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .button .row select{
+    color: rgb(35, 24, 24);
+    padding: 5px 10px;
+    font-size: 18px;
+    border: 2px solid #000000;
+    background: none;
+  }
+  
+  .button .change{
+    color: #DD5353;
+    cursor: pointer;
+    font-size: 20px;
+    transition: transform 0.2s ease;
+  }
+  .button i:active{
+    transform: scale(0.9);
+  }
+  
+  .groupy{
+    border: 2px solid #080808;
+    background: #a7a7a7;
+  }
+  .groupy .text-input{
+    display: flex;
+  }
+  .text-input .to-text{
+    border-left: 2px solid #080808;
+  }
+  
+  .text-input textarea{
+    resize: none;
+    height: 100px;
+    width: 100%;
+    background: none;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+  }
+  
